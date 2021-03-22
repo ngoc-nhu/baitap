@@ -1,0 +1,28 @@
+1. Ưu điểm của lập trình thủ tục hàm so với lập trình tuyết tính là gì ?
+- Dễ dàng kiểm tra lỗi và sữa lỗi
+- Cài đặt 1 lần và sử dụng được nhiều lần
+- Không lặp lại code có cùng chức năng
+2. Có mấy loại hàm, kể tên và phân tích loại hàm đó được sử dụng khi nào?
+Có 2 loại hàm:
+	+ Hàm có giá trị trả về
+	+ Hàm không có giá trị trả về
+-Hàm có giá trị trả về được sử dụng khi: đề bài yêu cầu đi tính toán  trả giá trị về cho phép tái sử dụng giá trị kdl của hàm
+-Hàm không có giá trị trả về được sử dụng khi: xử lý tính toán nhưng k trả về giá trị.
+3. Chức năng và nguyên lý hoạt động của return trong hàm có kdl trả về.
+Thoát hàm và lấy giá trị trả về cho lời gọi hàm
+4. cách dùng lời gọi hàm của hàm có giá trị trả về ?
++ In ra màn hình : cout<<nam_sinh(n);
++ Gán cho biến : int nam_sinh = tinh_nam_sinh(n);
++ Tính toán btdk: if(kiemtrascp(n)==true)
++ Tính toán biểu thức: (a*b)/UCLN(a,b);
+5. tham số hình thức là gì, tham số thực là gì ?
++Tham số hình thức truyền ở định nghĩa hàm
++Tham số thực truyền ở lời gọi hàm
+6. Tham trị là gì, tham chiếu là gì ?
++Tham trị: không có &. Tạo bản sao, nếu thay đổi thì không ảnh hưởng đến bản gốc
++Tham chiếu: có &. Chạy đến bản gốc để tương tác => thay đổi sẽ lưu lại
+7. Hàm trong chương trình được thực thi khi nào ?
+Khi có lời gọi hàm
+
+
+
